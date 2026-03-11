@@ -1,0 +1,54 @@
+# Exam02 – Quick Guide
+
+This repository contains practice exercises for the 42 Exam Rank 02.
+
+## 1) Exam Login Steps
+
+1. **Exam account**
+	- login: `exam`
+	- password: `exam`
+
+2. **Start the exam shell**
+	- In iTerm/terminal, run: `examshell`
+
+3. **42 Intra authentication**
+	- login: your 42 intra username (example: `prossi`)
+	- password: your 42 intra password
+
+4. **Photo check**
+	- Allow/confirm your profile photo check when prompted.
+
+5. **Access `Rendu`**
+	- Type `y` or `yes` to continue.
+
+## 2) Allowed Commands in `examshell`
+
+You can use only these commands:
+
+- `status` → check remaining time and exam information
+- `grademe` → run moulinette on pushed work
+- `finish` → close `examshell` and end the exam
+
+## 3) Working Directory Flow
+
+1. Open a new iTerm window or VS Code.
+2. Go to the `subject` directory to read the exercise instructions.
+3. Go to the `Rendu` directory (your exam repository).
+4. Create the required project folder and work inside it.
+
+## 4) Submission Steps
+
+When your program/function is ready:
+
+1. `git add <folder_or_files>`
+2. `git status`
+3. `git commit -m "your message"`
+4. `git push`
+5. Return to `examshell` and run: `grademe`
+
+## 5) Practical Tips
+
+- Push regularly (not only at the end).
+- Always run `grademe` after each push.
+- Keep your folder names exactly as required by the subject.
+
